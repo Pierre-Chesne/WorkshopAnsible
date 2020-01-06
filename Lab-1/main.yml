@@ -1,0 +1,13 @@
+---
+- hosts: webservers
+  remote_user: pierrc
+
+  tasks:
+    - name: Installation de "nginx"
+      become: yes
+      apt: # https://docs.ansible.com/ansible/latest/modules/apt_module.html
+        name: nginx
+        state: present
+...
+  
+      

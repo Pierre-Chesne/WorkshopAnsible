@@ -1,7 +1,7 @@
 ---
 - name: mise à jour
   become: true
-  apt:
+  apt: # https://docs.ansible.com/ansible/latest/modules/apt_module.html
     update_cache: yes
     upgrade: dist
     force_apt_get: yes    

@@ -1,0 +1,7 @@
+---
+- hosts: win
+  remote_user: pierrc
+
+  tasks:
+  - name: Recuperation des infos disque
+    win_disk_facts:

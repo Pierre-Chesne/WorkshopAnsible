@@ -1,13 +1,13 @@
 ---
 - name: Delete le fichier index de base
   become: yes
-  file:
+  file: # https://docs.ansible.com/ansible/latest/modules/file_module.html#file-module
     path: /var/www/html/index.nginx-debian.html
     state: absent
 
 - name: Uplaod des fichiers du site
   become: yes
-  copy: 
+  copy: # https://docs.ansible.com/ansible/latest/modules/copy_module.html
     src: ./SiteWeb/
     dest: /var/www/html/
   notify:

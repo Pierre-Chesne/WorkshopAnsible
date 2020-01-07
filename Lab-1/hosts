@@ -1,0 +1,5 @@
+[webservers]
+104.46.50.18
+
+[webservers:vars]
+ansible_python_interpreter=/usr/bin/python3

@@ -57,7 +57,7 @@ enabled=1
 gpgcheck=1
 gpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/azure-cli.repo'
 ```
-3. Installez avec la commande yum install.
+- Installez avec la commande yum install.
 ```
 sudo yum install azure-cli
 ```

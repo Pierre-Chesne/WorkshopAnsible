@@ -61,5 +61,5 @@ gpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/azu
 ```
 sudo yum install azure-cli
 ```
-**Installation de Visual Studio Code**
+**Installation de Visual Studio Code**<br/>
 ``https://code.visualstudio.com/``

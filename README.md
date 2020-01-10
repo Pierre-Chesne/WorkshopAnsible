@@ -1,4 +1,12 @@
 # Workshop Ansible
+Pour faire ce "Workshop", il faut :<br/>
+- Installer un environnement Linux (https://docs.microsoft.com/fr-fr/windows/wsl/install-win10) <br/>
+- Ansible <br/>
+- Azure CLI pour <br/>
+- Visual Studio Code </br>
+- Extension Visual Studio Code <br/>
+  - Ansible (https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible)<br/>
+  - https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml<br/>
 
 **Installation d'Ansible pour Azure**<br/>
 1. Pour un environnement Ubuntu 16.04 LTS :<br/>
@@ -16,7 +24,7 @@ sudo yum install -y python-pip python-wheel
 ```
 sudo pip install ansible[azure]
 ```
-**Test d'Ansible**
+3. Test d'Ansible
 ```
 ansible --vers
 ```

@@ -1,5 +1,5 @@
 # The Ad-Hoc command
-Les commandes "Ad-Hoc" servent à effectuer des tâches ponctuelles
+Les commandes "Ad-Hoc" servent à effectuer des tâches ponctuelles<br/>
 ``$ ansible [pattern] -m [module] -a "[module options]"``
 
 1. Rebooter un serveur à distance

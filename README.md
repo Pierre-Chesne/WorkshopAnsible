@@ -6,7 +6,7 @@ Pour faire ce "Workshop", il faut installer:<br/>
 - Visual Studio Code </br>
 - Extension Visual Studio Code <br/>
   - Ansible (https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible)<br/>
-  - YAML https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml<br/>
+  - YAML (https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)<br/>
 
 **Installation d'Ansible pour Azure**<br/>
 1. Pour un environnement Ubuntu 16.04 LTS :<br/>

@@ -8,9 +8,10 @@ Exemple :<br/>
 ansible -i hosts webservers -a "/sbin/reboot" -u pierrc --become
 ``
 2. Transfert de fichiers
-Exemple :
+Exemple :<br/>
+``
+ansible -i hosts webservers -m copy -a 'src=/tmp/remote-wsl-loc.txt dest=/tmp'
 ``
 
-``
 
 

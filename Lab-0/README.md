@@ -24,14 +24,24 @@ ansible -i hosts webservers -m apt -a 'name=nginx state=latest' --become
 ``
 4. **Gestion des services**<br/>
 Exemple :<br/>
-Démmarrage de service <br/>
+Démarrage de service<br/>
 ``
 ansible -i hosts webservers -m service -a "name=nginx state=started" --become
 ``<br/>
-Arrêt de service <br/>
+Arrêt de service<br/>
 ``
 ansible -i hosts webservers -m service -a "name=nginx state=stopped" --become
+``<br/>
+Re-Démarrage de service<br/>
 ``
+ansible -i hosts webservers -m service -a "name=nginx state=restarted" --become
+``
+5. Gathering facts
+Récupérer les inforations d'un host<br/>
+``
+ansible -i hosts webservers -m setup
+``
+
 
 
 

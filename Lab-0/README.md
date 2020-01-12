@@ -17,8 +17,7 @@ Exemple :<br/>
 Installation du "package nginx"<br/>
 ``
 ansible -i hosts webservers -m apt -a 'name=nginx state=present' --become
-``
-<br/>
+``<br/>
 Mettre à jour un "package"<br/>
 ``
 ansible -i hosts webservers -m apt -a 'name=nginx state=latest' --become

@@ -27,7 +27,7 @@ Exemple :<br/>
 Démmarrage de service <br/>
 ``
 ansible -i hosts webservers -m service -a "name=nginx state=started" --become
-``
+``<br/>
 Arrêt de service <br/>
 ``
 ansible -i hosts webservers -m service -a "name=nginx state=stopped" --become

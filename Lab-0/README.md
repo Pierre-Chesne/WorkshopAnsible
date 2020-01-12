@@ -36,8 +36,8 @@ Re-Démarrage de service<br/>
 ``
 ansible -i hosts webservers -m service -a "name=nginx state=restarted" --become
 ``
-5. Gathering facts
-Récupérer les inforations d'un host<br/>
+5. **Gathering facts**<br/>
+Récupérer les informations d'un host<br/>
 ``
 ansible -i hosts webservers -m setup
 ``

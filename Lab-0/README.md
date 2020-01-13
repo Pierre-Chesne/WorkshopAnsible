@@ -41,6 +41,15 @@ Récupérer les informations d'un host<br/>
 ``
 ansible -i hosts webservers -m setup
 ``
+6. **Test de connexion**
+Tester la connexion entre la machine Ansible et le(s) Host(s)
+``
+ansible -i hosts all -m ping
+``
+ou<br/>
+``
+ansible -i hosts webservers -m ping
+``
 
 
 

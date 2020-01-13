@@ -1,5 +1,5 @@
 ---
-- name: Uplaod des fichiers du site
+- name: Upload des fichiers du site
   become: yes
   copy: # https://docs.ansible.com/ansible/latest/modules/copy_module.html
     src: ./SiteWeb/

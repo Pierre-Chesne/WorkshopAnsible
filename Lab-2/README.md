@@ -2,7 +2,7 @@
 
 **Exercice**<br/>
 Créer un role "delete " (Efface le fichier index de base "index.nginx-debian.html") avec la commande ansible-galaxy<br/>
-Exemple, dans le rrépertoir roles:<br/>
+Exemple, dans le répertoire "roles":<br/>
 ``
 ansible-galaxy init delete
 ``<br/>

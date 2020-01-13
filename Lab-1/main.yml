@@ -1,13 +1,13 @@
 ---
-- hosts: webservers # Entree dans l'inventaire
+- hosts: webservers # Entrée dans l'inventaire
   remote_user: pierrc # User de connexion
 
   tasks:
-    - name: Installation de "nginx" # Non de la tache
+    - name: Installation de "nginx" # Nom de la tache
       become: yes # Elevation de privilège (sudo)
       apt: # https://docs.ansible.com/ansible/latest/modules/apt_module.html
         name: nginx # Nom du package
-        state: present. # Installé
+        state: present # Installé
 
   
       

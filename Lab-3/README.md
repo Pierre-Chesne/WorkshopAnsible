@@ -28,7 +28,7 @@ ansible-playbook -i winhosts ad.yml -v
 4. **Créer un rôle "restart" et un "Playbook restart.yml"**<br/>
 Création du rôle:<br/>
 ``
-mkdir -p roles/restart/tasks
+mkdir -p roles/restart/tasks<br/>
 touch roles/restart/tasks/main.yml
 ``<br/>
 Création du playbook restart:<br/>

@@ -1,0 +1,12 @@
+---
+- name: Setup de l "Active Directory"
+  win_domain:
+    create_dns_delegation: no
+    database_path: S:\Windows\NTDS
+    dns_domain_name: "{{ dns_domain_name }}"
+    domain_mode: Win2012R2
+    domain_netbios_name: "{{ netbios_domain_name }}"
+    forest_mode: Win2012R2
+    safe_mode_password: "{{ ad_pwd }}"
+    sysvol_path: S:\Windows\SYSVOL
+  register: domain_install

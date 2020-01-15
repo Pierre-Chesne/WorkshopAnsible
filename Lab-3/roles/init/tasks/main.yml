@@ -1,0 +1,9 @@
+---
+- name: Initialisation du disque data 
+  win_shell:
+    "Initialize-Disk -Number 2"
+  when: (ansible_disks[2].partition_style == "RAW")
+  
+  notify: 
+    - Creation de la partition
+    - Formatage de la partition

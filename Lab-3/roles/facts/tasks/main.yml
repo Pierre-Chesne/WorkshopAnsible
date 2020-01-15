@@ -1,0 +1,3 @@
+---
+- name: Recuperation des infos disque
+  win_disk_facts:

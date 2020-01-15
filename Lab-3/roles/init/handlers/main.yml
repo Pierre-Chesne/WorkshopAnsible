@@ -1,0 +1,10 @@
+---
+- name: Creation de la partition  
+  win_partition:
+    drive_letter: S
+    partition_size: -1
+    disk_number: 2
+
+- name: Formatage de la partition
+  win_shell:
+    "Format-Volume -DriveLetter S"

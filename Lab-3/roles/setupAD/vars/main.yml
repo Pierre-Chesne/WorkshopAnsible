@@ -1,0 +1,4 @@
+---
+dns_domain_name: ma-pme.local
+netbios_domain_name: MA-PME
+ad_pwd: Pawword123$

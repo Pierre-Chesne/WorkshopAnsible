@@ -11,5 +11,8 @@ ansible-galaxy init delete
 ``<br/>
 Effacer le fichier "/var/www/html/index.nginx-debian.html" avec le module "file" (https://docs.ansible.com/ansible/latest/modules/file_module.html)
 
-
+Executer le "playbook" :<br/>
+``
+ansible-playbook -i hosts main.yml
+``<br/>
 

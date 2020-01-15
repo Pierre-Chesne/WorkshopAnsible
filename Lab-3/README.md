@@ -29,7 +29,7 @@ ansible-playbook -i winhosts ad.yml -v
 Création du rôle:<br/>
 ``
 mkdir -p roles/restart/tasks
-``
+``<br/>
 ``
 touch roles/restart/tasks/main.yml
 ``<br/>

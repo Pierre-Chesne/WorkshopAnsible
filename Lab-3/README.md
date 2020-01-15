@@ -8,7 +8,7 @@ Exemple:<br/>
 ``
 ansible -i winhosts win -m win_ping
 ``<br/>
-2. **Récupérer des "Facts"**
+2. **Récupérer des "Facts"**<br/>
 Avec le module "win_disk_facts" , récupérer les paramètres des disques de la VM Windows<br/>
 exemple:<br/>
 ``
@@ -39,13 +39,3 @@ Une fois le rôle et le "playbook" terminés :<br/>
 ``
 ansible-playbook -i winhosts restart.yml -v
 ``<br/>
-
-5. **(Option) Playbook avec mot de passe chiffré**<br/>
-``
-ansible-vault encrypt_string Password123$
-``
-
-``
-ansible-playbook -i winhosts ad_disk.yml --ask-vault-pass
-``
-

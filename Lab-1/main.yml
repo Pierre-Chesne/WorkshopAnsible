@@ -9,5 +9,6 @@
         name: nginx # Nom du package
         state: present # Installé
 
+
   
       

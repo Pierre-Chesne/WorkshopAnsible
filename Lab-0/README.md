@@ -16,7 +16,7 @@ ansible -i hosts webservers -m copy -a 'src=/tmp/remote-wsl-loc.txt dest=/tmp'
 Exemple :<br/>
 Installation du "package nginx"<br/>
 ``
-ansible -i hosts webservers -m apt -a 'name=nginx state=present' --become
+ansible -i hosts webservers -m apt -a 'name=nginx update_cache=yes' --become
 ``<br/>
 Mettre à jour un "package"<br/>
 ``

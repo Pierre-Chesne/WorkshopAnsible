@@ -25,8 +25,8 @@ Pour ajouter le role ADDS et le paramétrer: <br/>
 ansible-playbook -i winhosts ad.yml -v
 ``<br/>
 
-4. **Créer un rôle "restart" et un "Playbook restart"**<br/>
-Créattion du rôle:<br/>
+4. **Créer un rôle "restart" et un "Playbook restart.yml"**<br/>
+Création du rôle:<br/>
 ``
 mkdir -p roles/restart/tasks
 touch roles/restart/tasks/main.yml

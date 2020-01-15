@@ -8,7 +8,7 @@ Pour faire ce "Workshop", il faut installer:<br/>
   - Ansible (https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible)<br/>
   - YAML (https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)<br/>
 
-**Installation d'Ansible pour Azure**<br/>
+**Installation d'Ansible pour Azure (le "Workshop" se fera avec une distribution Ubuntu 16.04 LTS)**<br/>
 1. Pour un environnement Ubuntu 16.04 LTS :<br/>
 ```
 sudo apt-get update && sudo apt-get install -y libssl-dev libffi-dev python-dev python-pip

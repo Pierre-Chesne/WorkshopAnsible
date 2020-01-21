@@ -5,6 +5,4 @@
 
   roles:
     - instRoleAD
-    - setupAD
-    - restart
-     
+    - setupAD    

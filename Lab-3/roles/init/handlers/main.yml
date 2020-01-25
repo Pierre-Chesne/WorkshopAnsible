@@ -8,3 +8,4 @@
 - name: Formatage de la partition
   win_shell:
     "Format-Volume -DriveLetter S"
+    

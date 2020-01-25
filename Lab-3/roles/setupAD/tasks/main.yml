@@ -10,3 +10,5 @@
     safe_mode_password: "{{ ad_pwd }}"
     sysvol_path: S:\Windows\SYSVOL
   register: domain_install
+  
+

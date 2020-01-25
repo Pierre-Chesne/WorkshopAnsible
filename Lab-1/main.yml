@@ -7,4 +7,4 @@
       become: yes # Elevation de privilège (sudo)
       apt: # https://docs.ansible.com/ansible/latest/modules/apt_module.html
         name: nginx # Nom du package
-        state: present # Installé 
+        state: present # Installé

@@ -42,3 +42,4 @@ Une fois le rôle et le "playbook" terminés :<br/>
 ansible-playbook -i winhosts restart.yml -v
 ``<br/>
 https://docs.ansible.com/ansible/latest/modules/azure_rm_virtualmachine_module.html
+

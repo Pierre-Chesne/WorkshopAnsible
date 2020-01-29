@@ -45,6 +45,10 @@ ansible -i hosts webservers -m service -a "name=nginx state=restarted" --become
 Récupérer les informations d'un host<br/>
 ``
 ansible -i hosts webservers -m setup
+``<br/>
+Avec un filtre<br/>
+``
+ansible -i hosts webservers -m setup -a 'filter=ansible_distribution'
 ``
 7. **Test de connexion**<br/>
 Tester la connexion entre la machine Ansible et le(s) Host(s)<br/>

@@ -25,7 +25,7 @@ Pour ajouter le role ADDS et le paramétrer: <br/>
 ansible-playbook -i winhosts ad.yml -v
 ``<br/>
 
-4. **Ajouter un rôle "restart" dans le Playbook restart.yml"**<br/>
+4. **Ajouter un rôle "restart" dans le Playbook ad.yml"**<br/>
 Création du rôle:<br/>
 ``
 mkdir -p roles/restart/tasks
@@ -33,10 +33,10 @@ mkdir -p roles/restart/tasks
 ``
 touch roles/restart/tasks/main.yml
 ``<br/>
-Création du playbook restart:<br/>
+Création du rôle restart:<br/>
 https://docs.ansible.com/ansible/latest/modules/win_reboot_module.html<br>
-Une fois le rôle "restart" et le "playbook ad.yml" modifiés :<br/>
+Une fois le rôle "restart" et le "playbook ad.yml" modifié :<br/>
 ``
-ansible-playbook -i winhosts restart.yml -v
+ansible-playbook -i winhosts ad.yml -v
 ``<br/>
 

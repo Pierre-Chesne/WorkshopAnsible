@@ -1,0 +1,264 @@
+{
+    "ansible_facts": {
+        "ansible_disks": [
+            {
+                "bootable": true,
+                "bus_type": "ATA",
+                "clustered": false,
+                "firmware_version": "1.1.0",
+                "friendly_name": "Virtual HD",
+                "guid": null,
+                "location": "PCI Slot 0 : Adapter 0 : Channel 0 : Device 0",
+                "manufacturer": null,
+                "model": "Virtual HD",
+                "number": 0,
+                "operational_status": "Online",
+                "partition_count": 2,
+                "partition_style": "MBR",
+                "partitions": [
+                    {
+                        "access_paths": [
+                            "\\\\?\\Volume{ed261ace-0000-0000-0000-100000000000}\\"
+                        ],
+                        "active": true,
+                        "drive_letter": null,
+                        "guid": null,
+                        "hidden": false,
+                        "mbr_type": 7,
+                        "number": 1,
+                        "offset": 1048576,
+                        "shadow_copy": false,
+                        "size": 524288000,
+                        "transition_state": 1,
+                        "type": "IFS",
+                        "volumes": [
+                            {
+                                "allocation_unit_size": 4096,
+                                "drive_type": "Fixed",
+                                "health_status": "Healthy",
+                                "label": "System Reserved",
+                                "object_id": "{1}\\\\VM-2019\\root/Microsoft/Windows/Storage/Providers_v2\\WSP_Volume.ObjectId=\"{d25eee0b-4275-11ea-9aac-806e6f6e6963}:VO:\\\\?\\Volume{ed261ace-0000-0000-0000-100000000000}\\\"",
+                                "path": "\\\\?\\Volume{ed261ace-0000-0000-0000-100000000000}\\",
+                                "size": 524283904,
+                                "size_remaining": 488017920,
+                                "type": "NTFS"
+                            }
+                        ]
+                    },
+                    {
+                        "access_paths": [
+                            "C:\\",
+                            "\\\\?\\Volume{ed261ace-0000-0000-0000-501f00000000}\\"
+                        ],
+                        "active": false,
+                        "drive_letter": "C",
+                        "guid": null,
+                        "hidden": false,
+                        "mbr_type": 7,
+                        "number": 2,
+                        "offset": 525336576,
+                        "shadow_copy": false,
+                        "size": 135838826496,
+                        "transition_state": 1,
+                        "type": "IFS",
+                        "volumes": [
+                            {
+                                "allocation_unit_size": 4096,
+                                "drive_type": "Fixed",
+                                "health_status": "Healthy",
+                                "label": "Windows",
+                                "object_id": "{1}\\\\VM-2019\\root/Microsoft/Windows/Storage/Providers_v2\\WSP_Volume.ObjectId=\"{d25eee0b-4275-11ea-9aac-806e6f6e6963}:VO:\\\\?\\Volume{ed261ace-0000-0000-0000-501f00000000}\\\"",
+                                "path": "\\\\?\\Volume{ed261ace-0000-0000-0000-501f00000000}\\",
+                                "size": 135838822400,
+                                "size_remaining": 125095084032,
+                                "type": "NTFS"
+                            }
+                        ]
+                    }
+                ],
+                "path": "\\\\?\\ide#diskvirtual_hd______________________________1.1.0___#5&35dc7040&0&0.0.0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}",
+                "physical_disk": {
+                    "allocated_size": 136365211648,
+                    "bus_type": "ATA",
+                    "can_pool": false,
+                    "cannot_pool_reason": "Insufficient Capacity",
+                    "device_id": "0",
+                    "firmware_version": "1.1.0",
+                    "friendly_name": "Virtual HD",
+                    "health_status": "Healthy",
+                    "indication_enabled": null,
+                    "manufacturer": null,
+                    "media_type": "Unspecified",
+                    "model": "Virtual HD",
+                    "object_id": "{1}\\\\VM-2019\\root/Microsoft/Windows/Storage/Providers_v2\\SPACES_PhysicalDisk.ObjectId=\"{d25eee0b-4275-11ea-9aac-806e6f6e6963}:PD:{d25eee1a-4275-11ea-9aac-806e6f6e6963}\"",
+                    "operational_status": "OK",
+                    "partial": true,
+                    "physical_location": "PCI Slot 0 : Adapter 0 : Channel 0 : Device 0",
+                    "serial_number": null,
+                    "size": 136367308800,
+                    "spindle_speed": 0,
+                    "supported_usages": {
+                        "Count": 5,
+                        "value": [
+                            "Auto-Select",
+                            "Manual-Select",
+                            "Hot Spare",
+                            "Retired",
+                            "Journal"
+                        ]
+                    },
+                    "unique_id": "{d25eee1a-4275-11ea-9aac-806e6f6e6963}",
+                    "usage_type": "Auto-Select"
+                },
+                "read_only": false,
+                "sector_size": 4096,
+                "serial_number": "",
+                "size": 136367308800,
+                "system_disk": true,
+                "unique_id": "IDE\\DISKVIRTUAL_HD______________________________1.1.0___\\5&35DC7040&0&0.0.0:VM-2019"
+            },
+            {
+                "bootable": false,
+                "bus_type": "ATA",
+                "clustered": false,
+                "firmware_version": "1.1.0",
+                "friendly_name": "Virtual HD",
+                "guid": null,
+                "location": "PCI Slot 1 : Adapter 0 : Channel 1 : Device 0",
+                "manufacturer": null,
+                "model": "Virtual HD",
+                "number": 1,
+                "operational_status": "Online",
+                "partition_count": 1,
+                "partition_style": "MBR",
+                "partitions": [
+                    {
+                        "access_paths": [
+                            "D:\\",
+                            "\\\\?\\Volume{4d874d8d-0000-0000-0000-010000000000}\\"
+                        ],
+                        "active": false,
+                        "drive_letter": "D",
+                        "guid": null,
+                        "hidden": false,
+                        "mbr_type": 7,
+                        "number": 1,
+                        "offset": 65536,
+                        "shadow_copy": false,
+                        "size": 21473722368,
+                        "transition_state": 1,
+                        "type": "IFS",
+                        "volumes": [
+                            {
+                                "allocation_unit_size": 4096,
+                                "drive_type": "Fixed",
+                                "health_status": "Healthy",
+                                "label": "Temporary Storage",
+                                "object_id": "{1}\\\\VM-2019\\root/Microsoft/Windows/Storage/Providers_v2\\WSP_Volume.ObjectId=\"{d25eee0b-4275-11ea-9aac-806e6f6e6963}:VO:\\\\?\\Volume{4d874d8d-0000-0000-0000-010000000000}\\\"",
+                                "path": "\\\\?\\Volume{4d874d8d-0000-0000-0000-010000000000}\\",
+                                "size": 21473718272,
+                                "size_remaining": 19932786688,
+                                "type": "NTFS"
+                            }
+                        ]
+                    }
+                ],
+                "path": "\\\\?\\ide#diskvirtual_hd______________________________1.1.0___#5&35dc7040&0&0.1.0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}",
+                "physical_disk": {
+                    "allocated_size": 21474836480,
+                    "bus_type": "ATA",
+                    "can_pool": false,
+                    "cannot_pool_reason": "Insufficient Capacity",
+                    "device_id": "1",
+                    "firmware_version": "1.1.0",
+                    "friendly_name": "Virtual HD",
+                    "health_status": "Healthy",
+                    "indication_enabled": null,
+                    "manufacturer": null,
+                    "media_type": "Unspecified",
+                    "model": "Virtual HD",
+                    "object_id": "{1}\\\\VM-2019\\root/Microsoft/Windows/Storage/Providers_v2\\SPACES_PhysicalDisk.ObjectId=\"{d25eee0b-4275-11ea-9aac-806e6f6e6963}:PD:{d25eee1b-4275-11ea-9aac-806e6f6e6963}\"",
+                    "operational_status": "OK",
+                    "partial": true,
+                    "physical_location": "PCI Slot 1 : Adapter 0 : Channel 1 : Device 0",
+                    "serial_number": null,
+                    "size": 21474836480,
+                    "spindle_speed": 0,
+                    "supported_usages": {
+                        "Count": 5,
+                        "value": [
+                            "Auto-Select",
+                            "Manual-Select",
+                            "Hot Spare",
+                            "Retired",
+                            "Journal"
+                        ]
+                    },
+                    "unique_id": "{d25eee1b-4275-11ea-9aac-806e6f6e6963}",
+                    "usage_type": "Auto-Select"
+                },
+                "read_only": false,
+                "sector_size": 4096,
+                "serial_number": "",
+                "size": 21474836480,
+                "system_disk": false,
+                "unique_id": "IDE\\DISKVIRTUAL_HD______________________________1.1.0___\\5&35DC7040&0&0.1.0:VM-2019"
+            },
+            {
+                "bootable": false,
+                "bus_type": "SAS",
+                "clustered": false,
+                "firmware_version": "1.0 ",
+                "friendly_name": "Msft Virtual Disk",
+                "guid": null,
+                "location": "Integrated : Adapter 3 : Port 0 : Target 0 : LUN 0",
+                "manufacturer": "Msft    ",
+                "model": "Virtual Disk    ",
+                "number": 2,
+                "operational_status": "Online",
+                "partition_count": 0,
+                "partition_style": "RAW",
+                "path": "\\\\?\\scsi#disk&ven_msft&prod_virtual_disk#000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}",
+                "physical_disk": {
+                    "allocated_size": 2097152,
+                    "bus_type": "SAS",
+                    "can_pool": true,
+                    "device_id": "2",
+                    "firmware_version": "1.0",
+                    "friendly_name": "Msft Virtual Disk",
+                    "health_status": "Healthy",
+                    "indication_enabled": null,
+                    "manufacturer": "Msft",
+                    "media_type": "Unspecified",
+                    "model": "Virtual Disk",
+                    "object_id": "{1}\\\\VM-2019\\root/Microsoft/Windows/Storage/Providers_v2\\SPACES_PhysicalDisk.ObjectId=\"{d25eee0b-4275-11ea-9aac-806e6f6e6963}:PD:{bc136495-8ee5-f58e-cc09-52fd6e24a1ee}\"",
+                    "operational_status": "OK",
+                    "partial": false,
+                    "physical_location": "Integrated : Adapter 3 : Port 0 : Target 0 : LUN 0",
+                    "serial_number": null,
+                    "size": 34359738368,
+                    "spindle_speed": 0,
+                    "supported_usages": {
+                        "Count": 5,
+                        "value": [
+                            "Auto-Select",
+                            "Manual-Select",
+                            "Hot Spare",
+                            "Retired",
+                            "Journal"
+                        ]
+                    },
+                    "unique_id": "60022480E312C36FA981408B0D968506",
+                    "usage_type": "Auto-Select"
+                },
+                "read_only": false,
+                "sector_size": 4096,
+                "serial_number": null,
+                "size": 34359738368,
+                "system_disk": false,
+                "unique_id": "60022480E312C36FA981408B0D968506"
+            }
+        ]
+    },
+    "changed": false
+}

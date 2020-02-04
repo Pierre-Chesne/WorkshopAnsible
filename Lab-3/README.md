@@ -34,11 +34,9 @@ mkdir -p roles/restart/tasks
 touch roles/restart/tasks/main.yml
 ``<br/>
 Création du playbook restart:<br/>
-``
-touch restart.yml
-``<br/>
-Une fois le rôle et le "playbook" terminés :<br/>
+https://docs.ansible.com/ansible/latest/modules/win_reboot_module.html<br>
+Une fois le rôle "restart" et le "playbook ad.yml" modifiés :<br/>
 ``
 ansible-playbook -i winhosts restart.yml -v
 ``<br/>
-https://docs.ansible.com/ansible/latest/modules/win_reboot_module.html
+

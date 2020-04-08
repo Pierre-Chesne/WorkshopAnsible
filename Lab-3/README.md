@@ -1,6 +1,18 @@
 # Ansible dans un environnement Windows
 Modules Windows :<br/>
 https://docs.ansible.com/ansible/latest/modules/list_of_windows_modules.html<br/>
+**Prerequis**<br/>
+Deploiement d'un environnement Windows Server 2019:<br/>
+Exemple de template de deploiement d'un serveur Windows Server 2019 avec un serveur OpenSSH (Nouvelle fonctionnalite de Windows Server 2019)<br/>
+Le script "OpenSSH.ps1" configure le service "OpenSSH SSH Server": <br/>
+- avec une authentifacation par cle ssh<br/>
+- avec le shell "PowerShell"<br/>
+
+
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FPierre-Chesne%2FWindows-Server-2019-OpenSSH%2Fmaster%2Fazuredeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+
+
+
 
 **Exercices:**<br/>
 1. **Test de la connexion avec un hosts "Windows"**

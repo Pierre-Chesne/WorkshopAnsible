@@ -1,6 +1,9 @@
 # Structure d’un playbook avec des rôles:
 
-https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html<br/>
+Recommandation pour ce Lab, installer la commnde "tree"<br/>
+exemple:`` apt-get install tree ``<br/> 
+
 
 
 **Exercice**<br/>

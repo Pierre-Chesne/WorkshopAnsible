@@ -1,6 +1,5 @@
 ---
 - name: installation de Nginx
-  become: yes
   apt: # https://docs.ansible.com/ansible/latest/modules/apt_module.html
     name: nginx
     state: present

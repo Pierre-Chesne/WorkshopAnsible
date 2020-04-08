@@ -1,6 +1,0 @@
----
-    - name: delete
-      become: yes
-      file:
-        path: /var/www/html/index.nginx-debian.html
-        state: absent

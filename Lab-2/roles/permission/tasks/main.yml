@@ -1,7 +1,5 @@
 ---
-- name: Permission sur le repertoire /var/www/html
-  become: yes
-  
+- name: Permission sur le repertoire /var/www/html  
   file: # https://docs.ansible.com/ansible/latest/modules/file_module.html#file-module
     path: /var/www/html
     mode: '0755' 

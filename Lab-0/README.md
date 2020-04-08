@@ -58,7 +58,7 @@ ansible -i hosts webservers -m setup
 ``<br/>
 Avec un filtre<br/>
 ``
-ansible -i hosts webservers -m setup -a 'filter=ansible_distribution'
+ansible -i hosts webservers -m setup -a 'filter=ansible_lsb'
 ``
 
 

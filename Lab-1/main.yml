@@ -8,3 +8,9 @@
       apt: # https://docs.ansible.com/ansible/latest/modules/apt_module.html
         name: nginx # Nom du package
         state: present # Installé
+
+    - name: deploiement index.html
+      become: yes        
+      copy: # https://docs.ansible.com/ansible/latest/modules/copy_module.html
+        src: ./index.html
+        dest: /var/www/html/index.html

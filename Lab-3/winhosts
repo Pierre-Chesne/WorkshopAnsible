@@ -1,5 +1,5 @@
 [win]
-51.144.43.101
+13.95.107.186
 
 [win:vars]
 ansible_connection=ssh

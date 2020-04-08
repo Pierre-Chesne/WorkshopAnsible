@@ -3,7 +3,7 @@
 https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html<br/>
 Recommandation pour ce Lab, installer la commnde "tree"<br/>
 exemple:`` apt-get install tree ``<br/> 
-
+A partir du repertoire ./WorshopAnsible/Lab-2 "executer la commande tree"<br/>
 
 
 **Exercice**<br/>

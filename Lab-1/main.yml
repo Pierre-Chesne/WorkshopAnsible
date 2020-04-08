@@ -1,16 +1,10 @@
 ---
-- hosts: webservers # Entrée dans l'inventaire
-  remote_user: pierrc # User de connexion
+   - hosts: webservers # Entrée dans l'inventaire
+     remote_user: pierrc # User de connexion
+     become: yes # Elevation de privilège (sudo)
 
-  tasks:
-    - name: Installation de "nginx" # Nom de la tache
-      become: yes # Elevation de privilège (sudo)
-      apt: # https://docs.ansible.com/ansible/latest/modules/apt_module.html
-        name: nginx # Nom du package
-        state: present # Installé
-
-    - name: deploiement index.html
-      become: yes        
-      copy: # https://docs.ansible.com/ansible/latest/modules/copy_module.html
-        src: ./index.html
-        dest: /var/www/html/index.html
+     tasks:
+      - name: Installation de "nginx" # Nom de la tache        
+        apt: # https://docs.ansible.com/ansible/latest/modules/apt_module.html
+          name: nginx # Nom du package
+          state: present # Installé

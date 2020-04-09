@@ -24,7 +24,7 @@ ansible -i winhosts win -m win_ping
 Avec le module "win_disk_facts" , récupérer les paramètres des disques de la VM Windows<br/>
 exemple:<br/>
 ``
-ansible-playbook -i winhosts info-disk.yml -v
+ansible-playbook -i winhosts info-disk.yml
 ``<br/>
 
 3. **Executer les playbooks**<br/>

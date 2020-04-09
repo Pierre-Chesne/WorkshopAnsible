@@ -5,4 +5,7 @@
   tasks:
   - name: Recuperation des infos disque
     win_disk_facts:
-    
+    register: diskVm
+
+  - debug:
+      var: diskVm

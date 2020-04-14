@@ -2,7 +2,7 @@
 Pour faire ce "Workshop", il faut installer:<br/>
 - Un environnement Linux (https://docs.microsoft.com/fr-fr/windows/wsl/install-win10) <br/>
 - Ansible <br/>
-- Azure CLI pour <br/>
+- Azure CLI <br/>
 - Visual Studio Code </br>
 - Extension Visual Studio Code <br/>
   - Ansible (https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible)<br/>

@@ -36,5 +36,8 @@ ansible 2.9.9
 ansible-galaxy collection install azure.azcollection
 ```
 **Gérer la méthode d'authentification et les droits pour Azure avec un SPN ("Service Principal Name")**<br/>
+Il y a deux possibiltés pour créer un SPN :<br>
+- En passant par la commande (Azure Could Shell ou CLI Azure)<br/>
+``az ad sp create-for-rbac --name ServicePrincipalName``
 **Installation de Visual Studio Code**<br/>
 ``https://code.visualstudio.com/``

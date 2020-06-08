@@ -23,7 +23,7 @@ Exemple :<br/>
 ansible -i hosts.yml webservers -m copy -a 'src=/tmp/remote-wsl-loc.txt dest=/tmp'
 ``
 4. **Mis à jour**<br/>
-Eemple :<br/>
+Exemple :<br/>
 ``
 ansible -i hosts.yml webservers -m apt -a "upgrade=yes update_cache=yes cache_valid_time=86400" --become
 ``

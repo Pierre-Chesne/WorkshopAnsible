@@ -44,5 +44,12 @@ az ad sp create-for-rbac --name ServicePrincipalName
 - Ou en passant par la console:<br/>
 https://docs.microsoft.com/fr-fr/azure/active-directory/develop/howto-create-service-principal-portal <br>
 
+Créez un fichier ``~/.azure/credentials``:<br/>
+```
+mkdir ~/.azure
+nano ~/.azure/credentials
+```
+
+
 **Installation de Visual Studio Code**<br/>
 ``https://code.visualstudio.com/``

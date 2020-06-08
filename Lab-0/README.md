@@ -5,11 +5,11 @@ Les commandes "Ad-Hoc" servent à effectuer des tâches ponctuelles<br/>
 1. **Test de connexion**<br/>
 Tester la connexion entre la machine Ansible et le(s) Host(s)<br/>
 ``
-ansible -i hosts all -m ping
+ansible -i hosts.yml all -m ping
 ``<br/>
 ou<br/>
 ``
-ansible -i hosts webservers -m ping
+ansible -i hosts.yml webservers -m ping
 ``
 
 2. **Rebooter un serveur à distance**<br/>

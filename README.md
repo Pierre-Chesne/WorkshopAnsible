@@ -17,14 +17,7 @@ sudo apt-get update && sudo apt-get install -y libssl-dev libffi-dev python-dev 
 ```
 sudo pip install ansible[azure]
 ```
-2. Pour un environnement CentOS 7.4 :<br/>
-```
-sudo yum check-update; sudo yum install -y gcc libffi-devel python-devel openssl-devel epel-release
-sudo yum install -y python-pip python-wheel
-```
-```
-sudo pip install ansible[azure]
-```
+
 3. Test d'Ansible
 ```
 ansible --vers

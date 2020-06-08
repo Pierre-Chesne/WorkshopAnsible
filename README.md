@@ -49,6 +49,14 @@ Créez un fichier ``~/.azure/credentials``:<br/>
 mkdir ~/.azure
 nano ~/.azure/credentials
 ```
+Copier le code en mettant vos informations (id de votre abonnement; id de l'application et son secret et id de votre tenant )<br/>
+```
+[default]
+subscription_id=<your-subscription_id>
+client_id=<security-principal-appid>
+secret=<security-principal-password>
+tenant=<security-principal-tenant>
+```
 
 
 **Installation de Visual Studio Code**<br/>

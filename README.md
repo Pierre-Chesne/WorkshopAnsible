@@ -18,7 +18,7 @@ sudo apt-get update && sudo apt-get install -y libssl-dev libffi-dev python-dev 
 sudo pip install ansible[azure]
 ```
 
-3. Test d'Ansible
+2. Test d'Ansible
 ```
 ansible --vers
 ```
@@ -31,29 +31,9 @@ ansible 2.9.9
   executable location = /usr/local/bin/ansible
   python version = 2.7.12 (default, Oct  8 2019, 14:14:10) [GCC 5.4.0 20160609]
 ```
-**Installation Azure CLI**<br/>
-1. Pour un environnement Ubuntu 18.04 LTS :<br/>
-
+**Installation de la collection "azcollection"**<br/>
 ```
-curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-```
-2. Pour un environnement CentOS 7.4
-- Importez la clé de référentiel Microsoft <br/>
-```
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-```
-- Créez des informations de référentiel azure-cli locales.
-```
-sudo sh -c 'echo -e "[azure-cli]
-name=Azure CLI
-baseurl=https://packages.microsoft.com/yumrepos/azure-cli
-enabled=1
-gpgcheck=1
-gpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/azure-cli.repo'
-```
-- Installez avec la commande yum install.
-```
-sudo yum install azure-cli
+ansible-galaxy collection install azure.azcollection
 ```
 **Installation de Visual Studio Code**<br/>
 ``https://code.visualstudio.com/``

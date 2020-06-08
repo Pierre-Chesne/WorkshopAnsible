@@ -3,7 +3,7 @@ Pour faire ce "Workshop", il faut installer:<br/>
 - Un environnement Linux (https://docs.microsoft.com/fr-fr/windows/wsl/install-win10) <br/>
 - Ansible <br/>
 - Installer la nouvelle collection "azcollection" (fournit une série de modules et plugins Ansible pour interagir avec Azure)<br/>
-
+- Gérer la méthode d'authentification et les droits pour Azure avec un SPN ("Service Principal Name")
 - Visual Studio Code </br>
 - Extension Visual Studio Code <br/>
   - Ansible (https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible)<br/>
@@ -35,5 +35,6 @@ ansible 2.9.9
 ```
 ansible-galaxy collection install azure.azcollection
 ```
+**Gérer la méthode d'authentification et les droits pour Azure avec un SPN ("Service Principal Name")**<br/>
 **Installation de Visual Studio Code**<br/>
 ``https://code.visualstudio.com/``

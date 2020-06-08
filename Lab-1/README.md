@@ -6,6 +6,6 @@ Copier le fichier « index.html » dans « /var/www/html/index.html » avec 
 
 Executer le "playbook" :<br/>
 ``
-ansible-playbook -i hosts main.yml
+ansible-playbook -i hosts.yml main.yml
 ``<br/>
 

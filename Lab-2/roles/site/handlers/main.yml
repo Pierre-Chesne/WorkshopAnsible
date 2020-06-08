@@ -1,6 +1,5 @@
 ---
-- name: start nginx
-  become: yes
+- name: start nginx  
   
   service: # https://docs.ansible.com/ansible/latest/modules/service_module.html
     name: nginx
